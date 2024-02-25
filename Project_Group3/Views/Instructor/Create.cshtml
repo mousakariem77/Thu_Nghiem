@@ -1,0 +1,73 @@
+@model WebLibrary.Models.Instructor;
+@{
+    ViewData["Title"] = "Create Instructor";
+}
+
+<h1>Create Instructor</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="InstructorId"></label>
+        <input asp-for="InstructorId" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Gender"></label>
+        <input asp-for="Gender" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Birthday"></label>
+        <input asp-for="Birthday" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Country"></label>
+        <input asp-for="Country" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RegistrationDate"></label>
+        <input asp-for="RegistrationDate" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Username"></label>
+        <input asp-for="Username" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Introduce"></label>
+        <input asp-for="Introduce" class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Status"></label>
+        <input asp-for="Status" class="form-control"/>
+    </div>
+    <P>@ViewBag.Message</P>
+    <button type="submit" class="btn btn-success">Create</button>
+    <a asp-action="Index" class="btn btn-secondary ml-2">Back</a>
+</form>
+
+@section Scripts{
+	<partial name="_ValidationScriptsPartial" />
+}

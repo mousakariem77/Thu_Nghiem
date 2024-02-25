@@ -1,0 +1,15 @@
+D:\Thu_Nghiem\WebLibrary\bin\Debug\net5.0\WebLibrary.deps.json
+D:\Thu_Nghiem\WebLibrary\bin\Debug\net5.0\WebLibrary.runtimeconfig.json
+D:\Thu_Nghiem\WebLibrary\bin\Debug\net5.0\WebLibrary.runtimeconfig.dev.json
+D:\Thu_Nghiem\WebLibrary\bin\Debug\net5.0\WebLibrary.dll
+D:\Thu_Nghiem\WebLibrary\bin\Debug\net5.0\WebLibrary.pdb
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\WebLibrary.csproj.AssemblyReference.cache
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\WebLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\WebLibrary.AssemblyInfoInputs.cache
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\WebLibrary.AssemblyInfo.cs
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\WebLibrary.csproj.CoreCompileInputs.cache
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\WebLibrary.dll
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\refint\WebLibrary.dll
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\WebLibrary.pdb
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\WebLibrary.genruntimeconfig.cache
+D:\Thu_Nghiem\WebLibrary\obj\Debug\net5.0\ref\WebLibrary.dll

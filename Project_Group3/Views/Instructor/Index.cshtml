@@ -1,0 +1,46 @@
+@model IEnumerable<WebLibrary.Models.Instructor>
+@{
+    ViewData["Title"] = "Instructor";
+}
+
+<h1>List Instructor</h1>
+<a class="btn btn-success mb-2" asp-action="Create">Add new</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Instructor ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Birthday</th>
+            <th>Country</th>
+            <th>Register Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var instructor in Model)
+        {
+            <tr>
+                <td>@instructor.InstructorId</td>
+                <td>
+                    <a href="/Product/Details/@instructor.InstructorId">
+                        @instructor.FirstName @instructor.LastName    
+                    </a>
+                </td>
+                <td>@instructor.Gender</td>
+                <td>@instructor.Birthday</td>
+                <td>@instructor.Country</td>
+                <td>@instructor.RegistrationDate</td>
+                <td>@instructor.Status</td>
+                <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@instructor.InstructorId">Edit</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@instructor.InstructorId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
